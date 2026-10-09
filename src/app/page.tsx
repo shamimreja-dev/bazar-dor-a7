@@ -354,9 +354,9 @@ export default async function HomePage() {
             <span>🛒</span>
             <h2>পণ্যের তথ্য লোড করা যায়নি</h2>
             <p>ইন্টারনেট সংযোগ পরীক্ষা করে আবার চেষ্টা করুন।</p>
-            <a href="/" className="primary-button">
+            <Link href="/" className="primary-button">
               আবার চেষ্টা করুন ↻
-            </a>
+            </Link>
           </div>
         ) : (
           <>
